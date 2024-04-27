@@ -1,6 +1,11 @@
-;Alt+[a-z]を押すことでCtrl+[a-z]になる。（mac風になる）
+;Windows起動の度にahkファイルを実行する必要がある。
+;C:\Users\ユーザー名\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\に置くことでWindows起動時に実行される。
 ;他、Ctrl2CapでCapsLockをCtrlにしてある。
 ;他、Windowsの設定で無変換キーを英語に、変換キーを日本語にしてある。
+
+;Alt+[a-z]を押すことでCtrl+[a-z]になる。
+;正規表現は使用できない。
+;AltをCtrlに変えてしまうとAltTabが使えず、それの解決方法は無い。
 !a::^a
 !b::^b
 !c::^c
